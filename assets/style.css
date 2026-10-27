@@ -76,3 +76,7 @@ h3,.h3{font-size:17px;margin:0 0 8px}
 .faq summary{cursor:pointer;font-weight:500}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;padding-block:18px}
 [hidden]{display:none!important}
+.credit{background:var(--amber);color:var(--amber-ink);text-align:center;font-size:13px;padding:5px 12px;font-weight:500}
+.credit b{font-weight:700;letter-spacing:.04em}
+.credit-f{font-size:14px;color:var(--fg)}
+.credit-f b{color:var(--amber)}
