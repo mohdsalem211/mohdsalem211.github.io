@@ -80,3 +80,12 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;paddin
 .credit b{font-weight:700;letter-spacing:.04em}
 .credit-f{font-size:14px;color:var(--fg)}
 .credit-f b{color:var(--amber)}
+.lessons{list-style:none;counter-reset:l;padding:0;display:grid;gap:8px}
+.lessons li{counter-increment:l}
+.lessons a{display:grid;grid-template-columns:40px 1fr;gap:2px 12px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;text-decoration:none;color:var(--fg)}
+.lessons a::before{content:counter(l);grid-row:span 2;font-family:var(--f-mono);font-size:22px;color:var(--amber);align-self:center;text-align:center}
+.lessons a:hover{border-color:var(--amber)}
+.lessons span{color:var(--muted);font-size:14px}
+.lesson .panel{margin-top:12px}.lesson .panel p{margin:.4em 0}
+.pager{margin:16px 0;justify-content:space-between}
+.plat.big{padding:16px}.plat.big b{font-size:17px}
